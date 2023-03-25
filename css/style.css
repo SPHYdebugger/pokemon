@@ -27,7 +27,7 @@
   }
   #cabecera{
   width: 100%;
-  max-height: 150px;
+  max-height: 100px;
   
   }
 
@@ -62,7 +62,7 @@ html {
     
   }
   #cuerpo{
-    margin-top: 168px;
+    margin-top: 118px;
     min-height: 800px;
     background-image: url(../images/fondo.jpg);
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@ html {
     
   }
   .detail-pokemon {
-    width: 40%;
+    width: 45%;
   }
 
   .list-pokemon {
@@ -91,8 +91,8 @@ html {
       width: 100%;
       max-width: 1200px;
       gap: 15px;
-      max-height: 85vh;
-      overflow-y: scroll;
+      
+      
   }
 
   .list-pokemon_item {
@@ -102,3 +102,13 @@ html {
     min-width: 130px;
 	text-align: center;
   }
+  .pokemon_item {
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding: 20px;
+    background-color: beige;
+    min-width: 130px;
+	text-align: center;
+  }
+  
