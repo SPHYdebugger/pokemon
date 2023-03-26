@@ -4,7 +4,7 @@
     width: 100%;    
     border: 2px;    
     border-style: solid;
-    border-color: coral;
+    border-color:blue;
     z-index: 100;
       }
 
@@ -13,13 +13,14 @@
     grid-gap: 1rem;
     grid-template-columns: auto;
     grid-template-rows:  auto auto auto;
+    min-width: 650px;
 }
 .btn-outline-success{
-    background-color: coral;
+    background-color: blue;
   }
   
   .boton{
-  border-color: coral;
+  border-color: blue;
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
@@ -39,10 +40,10 @@
 #buscar{
     border-style: solid;
     border-width: 1px;
-    border-color: coral;
+    border-color: blue;
   }
   #buscar:hover{
-    background-color: coral;
+    background-color: blue;
   }
 html {
     -webkit-box-sizing: border-box;
@@ -57,14 +58,11 @@ html {
     box-sizing: inherit;
   }
   
-  body {
-    font-family: 'Montserrat', sans-serif;
-    
-  }
+ 
   #cuerpo{
     margin-top: 118px;
     min-height: 800px;
-    background-image: url(../images/fondo.jpg);
+    background-image: url(../images/ashcampeon.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -79,7 +77,9 @@ html {
     
   }
   .detail-pokemon {
-    width: 45%;
+    width: 40%;
+    min-width: 140px;
+    
   }
 
   .list-pokemon {
@@ -101,14 +101,35 @@ html {
     background-color: beige;
     min-width: 130px;
 	text-align: center;
+    opacity: 75%;
   }
-  .pokemon_item {
-    font-size: 1.5rem;
-    margin-top: 50px;
+  
+
+  #detalle{
+    width: 25%;
+    max-height: 300px;
     margin-left: 15px;
-    padding: 20px;
-    background-color: beige;
-    min-width: 130px;
-	text-align: center;
+    padding: 10px;
+    position: fixed;
+    min-width: 170px;
+	
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
+  }
+  #poke-detail img{
+    width: 70%;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: -20%;
+
   }
   
